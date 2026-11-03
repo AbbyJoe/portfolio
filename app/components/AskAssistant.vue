@@ -187,7 +187,7 @@ let replyTimer = 0
 let settleTimer = 0
 let requestId = 0
 
-const showPrompts = computed(() => !typing.value && messages.value.length > 0 && messages.value.every(message => message.role === 'assistant'))
+const showPrompts = computed(() => !typing.value && messages.value.length > 0 && messages.value.every((message: { role: string }) => message.role === 'assistant'))
 
 function peek() {
   window.clearTimeout(settleTimer)
@@ -252,7 +252,7 @@ async function send(text: string) {
     const result = await $fetch<{ reply: string }>('/api/assistant', {
       method: 'POST',
       body: {
-        messages: messages.value.map(message => ({ role: message.role, content: message.text })),
+        messages: messages.value.map((message: { role: any; text: any }) => ({ role: message.role, content: message.text })),
       },
     })
     if (current !== requestId) return
