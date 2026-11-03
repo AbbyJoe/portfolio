@@ -17,7 +17,7 @@
           <p class="m-0">
             I'm a Senior Frontend/Product Engineer and technical leader at 
             <a href="https://www.midddleman.com/" class="group/mark ml-[0.28em] inline-flex translate-y-[0.06em] rounded-sm" target="_blank" rel="noopener noreferrer"><img src="/images/midddleman-logo.png" alt="" class="size-[1.05em] rounded-[3px] object-contain transition duration-200 group-hover/mark:scale-110"><span class="sr-only">Midddleman (opens in a new tab)</span></a> Midddleman,
-            where we’re making it easier for African businesses to import seamlessly from China. Finding the goods is one thing, paying for them is another, and getting them here is a whole different story. We’re building technology to make the whole process feel a lot less complicated.
+            where we’re making it easier for African businesses to import seamlessly from China. We’re building technology to make the whole process feel a lot less complicated.
           </p>
           <p class="m-0 mt-3">
             Before Midddleman, I spent years building financial software at <a href="https://advansio.com" class="group/mark inline-flex translate-y-[0.06em] rounded-sm" target="_blank" rel="noopener noreferrer"><img src="/images/advansio-logo.png" alt="" class="h-[1.15em] w-auto object-contain transition duration-200 group-hover/mark:scale-110"><span class="sr-only">Advansio (opens in a new tab)</span></a>, 

@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
@@ -25,5 +26,15 @@ export default defineNuxtConfig({
     xaiAuthKey: '',
     xaiModel: '',
     xaiMaxTokens: '',
+  },
+  nitro: {
+    serverAssets: [
+      {
+        baseName: 'portfolio',
+        dir: fileURLToPath(new URL('.', import.meta.url)),
+        pattern: 'PORTFOLIO.md',
+        ignore: ['**/node_modules/**', '**/.git/**', '**/.nuxt/**', '**/.output/**'],
+      },
+    ],
   },
 })
