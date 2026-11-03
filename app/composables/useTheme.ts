@@ -6,7 +6,7 @@ const surfaces: Record<Theme, string> = {
 }
 
 export function useTheme() {
-  const theme = useState<Theme>('theme', () => 'dark')
+  const theme = useState<Theme>('theme', () => 'light')
 
   function paint(next: Theme) {
     document.documentElement.dataset.theme = next
@@ -15,7 +15,7 @@ export function useTheme() {
   }
 
   function sync() {
-    paint(document.documentElement.dataset.theme === 'light' ? 'light' : 'dark')
+    paint(document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light')
   }
 
   function apply(next: Theme) {

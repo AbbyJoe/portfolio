@@ -14,7 +14,7 @@ useHead({
   },
   script: [
     {
-      innerHTML: 'try{var t=localStorage.getItem("theme");document.documentElement.dataset.theme=t==="light"?"light":"dark"}catch(e){}',
+      innerHTML: 'try{var t=localStorage.getItem("theme");document.documentElement.dataset.theme=t==="dark"?"dark":"light"}catch(e){}',
     },
     {
       innerHTML: 'try{var r=matchMedia("(prefers-reduced-motion: reduce)").matches;document.documentElement.dataset.intro=r?"done":"play";if(!r)history.scrollRestoration="manual"}catch(e){}',

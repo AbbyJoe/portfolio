@@ -9,11 +9,11 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      htmlAttrs: { lang: 'en' },
+      htmlAttrs: { lang: 'en', 'data-theme': 'light' },
       title: 'Abiodun Arigbede · Senior Frontend/Product Engineer',
       meta: [
-        { name: 'color-scheme', content: 'dark light' },
-        { name: 'theme-color', content: '#17171a' },
+        { name: 'color-scheme', content: 'light dark' },
+        { name: 'theme-color', content: '#f4f1ea' },
       ],
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
