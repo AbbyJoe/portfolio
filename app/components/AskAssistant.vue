@@ -7,11 +7,11 @@
     >
       <div class="absolute inset-0 bg-[#05060a]/55 backdrop-blur-[3px] light:bg-[#16140f]/30" />
       <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(5,6,10,0.55)_100%)] light:bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(22,20,15,0.34)_100%)]" />
-      <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_0%_100%,rgba(143,178,255,0.2),transparent_42%)] light:bg-[radial-gradient(ellipse_at_0%_100%,rgba(21,35,73,0.18),transparent_48%)]" />
+      <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_100%,rgba(143,178,255,0.2),transparent_42%)] light:bg-[radial-gradient(ellipse_at_50%_100%,rgba(21,35,73,0.18),transparent_48%)]" />
     </div>
     <section
       ref="card"
-      class="fixed bottom-[max(1rem,env(safe-area-inset-bottom))] left-4 z-40 overflow-hidden border border-white/12 bg-[#0e0f15]/85 font-sans text-white shadow-[0_20px_60px_rgba(0,0,0,0.55),0_0_0_1px_rgba(143,178,255,0.06)] backdrop-blur-xl transition-[width,border-radius,transform] light:border-black/10 light:bg-white/80 light:text-[#16161a] light:shadow-[0_20px_50px_rgba(20,25,45,0.14),0_0_0_1px_rgba(21,35,73,0.05)] duration-300 ease-out sm:bottom-6 sm:left-6"
+      class="fixed bottom-[max(1rem,env(safe-area-inset-bottom))] left-0 right-0 z-40 mx-auto overflow-hidden border border-white/12 bg-[#0e0f15]/85 font-sans text-white shadow-[0_20px_60px_rgba(0,0,0,0.55),0_0_0_1px_rgba(143,178,255,0.06)] backdrop-blur-xl transition-[width,border-radius,transform] light:border-black/10 light:bg-white/80 light:text-[#16161a] light:shadow-[0_20px_50px_rgba(20,25,45,0.14),0_0_0_1px_rgba(21,35,73,0.05)] duration-300 ease-out sm:bottom-6"
       :class="{
         'w-[min(16.5rem,calc(100vw-2rem))] rounded-4xl hover:-translate-y-0.5': mode === 'rest',
         'w-[min(21rem,calc(100vw-2rem))] rounded-[1.4rem]': mode === 'peek',
