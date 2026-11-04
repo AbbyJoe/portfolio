@@ -1,7 +1,7 @@
 <template>
   <NuxtRouteAnnouncer />
   <ParticleField />
-  <SpaceIntro />
+  <!-- <SpaceIntro /> -->
   <div class="relative z-10">
     <NuxtPage />
   </div>
@@ -16,9 +16,9 @@ useHead({
     {
       innerHTML: 'try{var t=localStorage.getItem("theme");document.documentElement.dataset.theme=t==="dark"?"dark":"light"}catch(e){}',
     },
-    {
-      innerHTML: 'try{var r=matchMedia("(prefers-reduced-motion: reduce)").matches;document.documentElement.dataset.intro=r?"done":"play";if(!r)history.scrollRestoration="manual"}catch(e){}',
-    },
+    // {
+    //   innerHTML: 'try{var r=matchMedia("(prefers-reduced-motion: reduce)").matches;document.documentElement.dataset.intro=r?"done":"play";if(!r)history.scrollRestoration="manual"}catch(e){}',
+    // },
   ],
 })
 </script>
