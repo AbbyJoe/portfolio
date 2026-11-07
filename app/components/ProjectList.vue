@@ -1,7 +1,7 @@
 <template>
   <section class="mt-12 border-t border-line pt-8 sm:mt-14" aria-labelledby="projects-heading">
     <h2 id="projects-heading" data-reveal class="font-display text-[1.0625rem] font-[560] tracking-[-0.02em] text-heading">
-      Some of the things I've built
+      Some of the things I've worked on
     </h2>
     <ul class="mt-3 list-none p-0">
       <li
@@ -31,7 +31,7 @@
               <path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           </span>
-          <span v-if="project.summary" class="font-serif text-[0.95rem] leading-snug font-[450] text-balance text-muted italic sm:text-right">{{ project.summary }}</span>
+          <span v-if="project.summary" class="font-serif text-[0.95rem] leading-snug font-[450] text-balance text-muted sm:text-right">{{ project.summary }}</span>
         </a>
         <div v-else class="grid -mx-[0.7rem] gap-1 rounded-[0.8rem] px-[0.7rem] py-3 sm:grid-cols-[minmax(13.5rem,17rem)_minmax(0,1fr)] sm:items-center sm:gap-8">
           <span class="inline-flex items-center gap-2.5 font-display text-[1.15rem] font-medium tracking-[-0.02em]">
@@ -43,7 +43,7 @@
             >
             <span>{{ project.name }}</span>
           </span>
-          <span v-if="project.summary" class="font-serif text-[0.95rem] leading-snug font-[450] text-balance text-muted italic sm:text-right">{{ project.summary }}</span>
+          <span v-if="project.summary" class="font-serif text-[0.95rem] leading-snug font-[450] text-balance text-muted sm:text-right">{{ project.summary }}</span>
         </div>
       </li>
     </ul>

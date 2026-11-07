@@ -4,7 +4,7 @@
 
     <div class="mt-1.5">
       <div v-for="group in groups" :key="group.label" class="grid gap-[0.7rem] border-b border-line py-[1.05rem] sm:grid-cols-[9.5rem_1fr] sm:items-baseline sm:gap-x-6 sm:gap-y-4">
-        <h3 class="m-0 font-serif text-[1.02rem] font-[450] tracking-[-0.02em] text-heading italic">{{ group.label }}</h3>
+        <h3 class="m-0 font-serif text-[1.02rem] font-[450] tracking-[-0.02em] text-heading">{{ group.label }}</h3>
         <ul class="m-0 flex list-none flex-wrap gap-x-[1.15rem] gap-y-[0.45rem] p-0">
           <li v-for="item in group.items" :key="item" class="inline-flex items-center gap-[0.42rem] text-[0.84rem] tracking-[-0.01em] text-ink">
             <MarkIcon :mark="technologyMark(item, false)" class="size-[0.95rem] text-ink" />

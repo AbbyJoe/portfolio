@@ -10,12 +10,12 @@
       </header>
 
       <div class="mt-6">
-        <p data-reveal class="m-0 font-serif text-[1.05rem] leading-[1.45] font-[450] tracking-[-0.02em] text-pretty text-ink italic sm:text-[1.25rem] sm:leading-[1.35] lg:text-[1.35rem]">
+        <!-- <p data-reveal class="m-0 font-serif text-[1.05rem] leading-[1.45] font-[450] tracking-[-0.02em] text-pretty text-ink italic sm:text-[1.25rem] sm:leading-[1.35] lg:text-[1.35rem]">
           Naturally curious about how things work, I enjoy building things, and have a habit of asking one question that leads to five more. Most days, you'll find me somewhere between writing code, figuring out a problem, or exploring an idea that caught my attention.
-        </p>
+        </p> -->
         <div data-reveal class="mt-4 font-serif text-[0.9375rem] leading-[1.65] font-[430] text-pretty text-ink sm:text-base sm:leading-[1.6]">
           <p class="m-0">
-            I'm a Senior Frontend/Product Engineer and technical leader at 
+            I'm a Frontend/Product Engineer and technical leader at 
             <a href="https://www.midddleman.com/" class="group/mark ml-[0.28em] inline-flex translate-y-[0.06em] rounded-sm" target="_blank" rel="noopener noreferrer"><img src="/images/midddleman-logo.png" alt="" class="size-[1.05em] rounded-[3px] object-contain transition duration-200 group-hover/mark:scale-110"><span class="sr-only">Midddleman (opens in a new tab)</span></a> Midddleman,
             where we’re making it easier for African businesses to import seamlessly from China. We’re building technology to make the whole process feel a lot less complicated.
           </p>
@@ -82,7 +82,7 @@
       </section>
 
       <footer data-reveal class="mt-16 border-t border-line pt-6">
-        <p class="m-0 font-serif text-base text-muted italic">Still getting carried away.</p>
+        <!-- <p class="m-0 font-serif text-base text-muted italic">Still getting carried away.</p> -->
         <div class="mt-5 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 font-sans text-[0.78rem] tracking-[0.02em] text-muted">
           <p class="m-0 inline-flex items-center gap-1.5">
             <svg class="size-3 text-[#e5484d]" viewBox="0 0 24 24" aria-hidden="true">
