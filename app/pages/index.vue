@@ -24,8 +24,7 @@
              from internet banking solutions that help people make payments and manage their everyday transactions, to agency banking platforms that help businesses serve customers, process payments, and bring financial services closer to their communities.
           </p>
           <p class="m-0 mt-3">
-            I’m particularly curious about what happens beneath the surface, how backend services communicate, how distributed systems handle data and scale, and how architectural decisions shape the way software performs, grows and stays reliable. I enjoy understanding the bigger picture, not just building what users see.
-          </p>
+            I'm naturally curious about how things work. One question often leads to five more, and before I know it, I'm deep into figuring something out. I enjoy building things, but I'm just as interested in what happens beneath the surface, how services communicate, how systems handle data and scale, and how all the moving parts come together to make software work reliably. For me, it's never just about what people see; it's about understanding the whole picture.          </p>
         </div>
         <!-- <div data-reveal>
           <a
