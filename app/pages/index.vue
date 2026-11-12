@@ -106,7 +106,7 @@ const reads: { title: string, href?: string }[] = [
     title: 'Beyond the Marketplace: Engineering the Infrastructure for Cross-Border Trade.',
   },
   {
-    title: 'I like the moment a system actually makes sense. Not the diagram. The click.',
+    title: 'That Moment When Everything Connects.',
     href: 'https://medium.com/@arigbedeabiodun/i-like-the-moment-a-system-actually-makes-sense-not-the-diagram-the-click-f35d7bab6314?sharedUserId=arigbedeabiodun',
   },
 ]
