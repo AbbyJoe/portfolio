@@ -53,6 +53,11 @@
 <script setup lang="ts">
 const projects = [
   {
+    name: 'Cue',
+    url: 'https://cue.abiodun.space/',
+    summary: 'AI-powered interview practice. Helping people prepare for interviews through realistic voice conversations and actionable feedback on their performance.',
+  },
+  {
     name: 'Midddleman',
     url: 'https://www.midddleman.com/',
     summary: 'Infrastructure for cross-border trade. Making it easier for African businesses to import seamlessly from China.',
@@ -75,6 +80,7 @@ const projects = [
 ]
 
 const logos: Record<string, string> = {
+  cue: '/images/cue-logo.png',
   midddleman: '/images/midddleman-logo.png',
   covr: '/images/covr-logo.png',
   onebuxx: '/images/onebuxx-logo.png',
